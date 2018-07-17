@@ -4,8 +4,8 @@ class Artist
 def initialize(name)
   @name=name
 end
-def songs
-song=Song.new()
+def songs(song)
+song=Song.new(song)
 end
 
 

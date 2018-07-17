@@ -27,4 +27,7 @@ def self.find(name)
  def self.create(name)
     self.new(name).tap {|artist| artist.save}
   end
+  def print_songs
+   songs.each {|song| puts song.name}
+ end
 end

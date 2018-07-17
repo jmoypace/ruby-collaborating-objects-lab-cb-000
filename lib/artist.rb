@@ -6,8 +6,8 @@ def initialize(name)
   @name=name
   @songs=[]
 end
-def songs(song)
-song=Song.new(song)
+def self.all
+  @@all
 end
 
 
